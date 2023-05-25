@@ -1,2 +1,40 @@
 
+
+
 /* Your CSS Code here. */
+        #gameContainer{
+            width:400px;
+            height:400px;
+            background-color: black;
+            margin: auto 100px;
+            position:relative;
+        }
+        .snakeBodyPixel{
+            width:10px;
+            height:10px;
+            border-radius: 2px;
+            background-color: red;
+            position: absolute;
+            z-index:2;
+        }
+        .food{
+            width:10px;
+            height:10px;
+            border-radius:50%;
+            background-color: green;
+            position: absolute;
+            /* top: 230px;
+            left:10px; */
+        }
+/* <style> */
+  #gameContainer {
+    height: 400px; 
+    width: 400px;
+    display: grid;
+    grid-template-columns: repeat(40, 1fr);
+    grid-template-rows: repeat(40, 1fr);
+    border: 1px solid black;
+  }
+  .pixel {
+    border: 1px solid gray;
+  }
